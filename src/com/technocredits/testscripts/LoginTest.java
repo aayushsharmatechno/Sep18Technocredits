@@ -17,6 +17,7 @@ public class LoginTest extends TestMethods {
 	public void loginTest(String uname, String pwd, String expectedResult) {
 		System.out.println(uname + ":" + pwd);
 		System.out.println("Start : Login Test");
+		System.out.println("Hi Aayush here");
 		initialize();
 		RegistrationPage registrationPage = goto_Registration();
 		registrationPage.login(uname, pwd);
